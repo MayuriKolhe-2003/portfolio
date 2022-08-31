@@ -58,14 +58,7 @@
     margin: 10px auto;
     transition: all 0.3s linear;
 }
-@media (min-width: 600px){
-  .skill-btn{
-    height: 40px;
-  }
-  .btn-gradient i{
-    margin-top: 0;
-  }
-}
+
 .skill-btn:hover{
   transform: scale(1.03);
 }
@@ -130,6 +123,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
+
   
   /*--------------------------------------------------------------
   # Testimonials

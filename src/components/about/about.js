@@ -42,16 +42,13 @@ experience ..</p>
           
           <h3>Frontend &amp; Web Developer</h3>
             <p className="fst-italic my-3">
-              An independent and self-motivated student on the quest of an
-oppourtinity for an entry-level position in the web
-development that can acquiant me with knowledge and
-experience ..
+              I am a 19 year old student of Computer science having interest in web development and machine learning. I am passionate to learn new things 
             </p>
             <div className="row content">
               <div className="col-md-6">
                 <ul>
                   <li><i className="bi bi-rounded-right"></i> <strong>Birthday:</strong> 10 May 2003</li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Pronoun:</strong> She/her</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Phone:</strong> +91 8698648377</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>City:</strong> City : Pune</li>
                 </ul>
@@ -60,15 +57,14 @@ experience ..
                 <ul>
                   <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> Pursuing Bachelors</li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>PhEmailone: </strong> kolhem10@gmail.com</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Email: </strong> kolhem10@gmail.com</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
                 </ul>
               </div>
             </div>
 
             <p className="mt-3">
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupidtate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+             <strong>Carrer Objective : </strong> As a beginner in the field of Computer Science, I strive to associate myself with an organization where I can utilize my skills in the best possible manner, which further gives me an opportunity to grow in my career journey while contributing to the development of the organization.
             </p>
           </div>
     </div>
@@ -81,7 +77,7 @@ experience ..
 
         <div className="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Below is the list of technical skills I am familiar with.</p>
         </div>
 
         <div className="row skills-content">
@@ -90,7 +86,7 @@ experience ..
            const color = item.color;
           return (  
            
-            <div className="skill-btn col-md-1" key={index} style={{backgroundColor:color,}}>
+            <div className="skill-btn col-md-1 col-sm-6" key={index} style={{backgroundColor:color,}}>
                 <span className="btn-gradient">
                   <i className={item.icon}></i>
                 </span>

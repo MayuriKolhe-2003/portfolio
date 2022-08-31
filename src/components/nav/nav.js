@@ -36,10 +36,10 @@ const nav = () => {
 </nav>
 
 <div className="header-social-links">
-        <a href="https://github.com/MayuriKolhe-2003" className="github"><i className="fa-brands fa-github"></i></a>
-        <a href="https://instagram.com/mayuri_.10" className="facebook"><i className="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/mayuri-kolhe-538883193" className="instagram"><i className="fa-brands fa-linkedin"></i></a>
-        <a href="kolhem10@gmail.com" className="email"><i className="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/MayuriKolhe-2003" className="github" target="_blank"><i className="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/mayuri_.10" className="facebook" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mayuri-kolhe-538883193" className="instagram" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+        <a href="mailto: kolhem10@gmail.com" className="email" target="_blank"><i className="fa-solid fa-envelope"></i></a>
       </div>
 	</div>
 </header>

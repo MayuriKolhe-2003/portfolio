@@ -27,10 +27,7 @@ const Contact = () => {
             <div className='row'>
                     <div className="section-title ">
                     <h2>Contact Me</h2>
-                    <p>An independent and self-motivated student on the quest of an
-                    oppourtinity for an entry-level position in the web
-                    development that can acquiant me with knowledge and
-                    experience ..</p>
+                    <p>Reach out to me at below places.</p>
                     </div>
               <div className='col-md-7'>
                 <form  ref={form} onSubmit={sendEmail} id="contact">
@@ -81,7 +78,7 @@ const Contact = () => {
 				        			<span className="fa fa-map-marker"></span>
 				        		</div>
 				        		<div className="text ps-3">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+					            <p><span>Address:</span> Saneguruji Colony, Faizpur , Dist-Jalgaon -India</p>
 					          </div>
 				          </div>
 				        	<div className="w-100 my-2 d-flex align-items-center">
@@ -89,7 +86,7 @@ const Contact = () => {
 				        			<span className="fa fa-phone"></span>
 				        		</div>
 				        		<div className="text ps-3">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+					            <p><span>Phone:</span> <a href="tel:08698648377">+91 8698648377</a></p>
 					          </div>
 				          </div>
 				        	<div className=" w-100 my-2 d-flex align-items-center">
@@ -97,7 +94,7 @@ const Contact = () => {
 				        			<span className="fa fa-paper-plane"></span>
 				        		</div>
 				        		<div className="text ps-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+					            <p><span>Email:</span> <a href="mailto:kolhem10@gmail.com">kolhem10@gmail.com</a></p>
 					          </div>
 				          </div>
 				        	<div className=" w-100 my-2 d-flex align-items-center">
@@ -105,7 +102,7 @@ const Contact = () => {
 				        			<span className="fa fa-globe"></span>
 				        		</div>
 				        		<div className="text ps-3">
-					            <p><span>Website:</span> <a href="#">yoursite.com</a></p>
+					            <p><span>Website:</span> <a href="https://630f48b04b042e13c46f2a00--mayurikolhe.netlify.app/">mayurikolhe.netlify.app/</a></p>
 					          </div>
 				          </div>
 			          </div>

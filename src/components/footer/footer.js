@@ -5,7 +5,7 @@ const footer = () => {
     <footer id="footer">
     <div className="container">
       <div className="copyright">
-        &copy; Copyright <strong><span>Mayuri</span></strong>. All Rights Reserved
+        2022 &copy; Copyright <strong><span>Mayuri</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer>

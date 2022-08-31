@@ -25,7 +25,7 @@ const ScrollToTop = () => {
       {" "}
       {showTopBtn && (
           <div className='icon-style icon-position' onClick={goToTop}>
-            <i class="fa-solid fa-angles-up"></i>
+            <i className="fa-solid fa-angles-up"></i>
             </div>
       )}{" "}
   </div>

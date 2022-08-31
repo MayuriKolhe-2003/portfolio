@@ -21,7 +21,7 @@ const Home = () => {
       <h2>I'm a <span> {text} </span> </h2>
       <div className='row'>
       <a href="#about" className="col btn-about">About Me</a>
-      <a href="assets/cv.pdf" download className="col btn-about">DownloadCV</a>
+      <a href="assets/resume.pdf" download className="col btn-about">DownloadCV</a>
       </div>
     </div>
   </section>
