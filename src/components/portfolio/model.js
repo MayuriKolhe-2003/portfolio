@@ -11,7 +11,7 @@ const handleClose = () => setShow(false);
 
   return (
    <>
-     <div className="col-md-4 portfolio-item " >
+     <div className="col-md-4 portfolio-item " data-aos='fade-up' data-aos-delay="200">
             <div className="portfolio-wrap">
               <img src={props.img} className="img-fluid" alt=""/>
               <div className="portfolio-info">

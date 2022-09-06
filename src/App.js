@@ -23,6 +23,7 @@ AOS.init({
   duration: 1000,
   easing: "ease-in-out",
   mirror:true,
+  delay : 100
 });
 
 

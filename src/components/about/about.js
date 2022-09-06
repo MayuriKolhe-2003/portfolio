@@ -21,16 +21,17 @@ const About = () => {
 
   return (
     <>
-    <section id="about" className="about"  >
-      <div className="container" data-aos="fade-up">
-
-        <div className="section-title">
+    <section id="about" className="about container"  >
+    <div className="section-title" data-aos="fade-up">
           <h2>About</h2>
           <p>An independent and self-motivated student on the quest of an
 oppourtinity for an entry-level position in the web
 development that can acquiant me with knowledge and
 experience ..</p>
         </div>
+      <div className="container" >
+
+        
 
         <div className="row col-md-12">
 
@@ -45,7 +46,7 @@ experience ..</p>
               I am a 19 year old student of Computer science having interest in web development and machine learning. I am passionate to learn new things 
             </p>
             <div className="row content">
-              <div className="col-md-6">
+              <div className="col-md-6" data-aos="fade-right">
                 <ul>
                   <li><i className="bi bi-rounded-right"></i> <strong>Birthday:</strong> 10 May 2003</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Pronoun:</strong> She/her</li>
@@ -53,7 +54,7 @@ experience ..</p>
                   <li><i className="bi bi-rounded-right"></i> <strong>City:</strong> City : Pune</li>
                 </ul>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6" data-aos="fade-right">
                 <ul>
                   <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> Pursuing Bachelors</li>
@@ -63,7 +64,7 @@ experience ..</p>
               </div>
             </div>
 
-            <p className="mt-3">
+            <p className="mt-3" data-aos="fade-up">
              <strong>Carrer Objective : </strong> As a beginner in the field of Computer Science, I strive to associate myself with an organization where I can utilize my skills in the best possible manner, which further gives me an opportunity to grow in my career journey while contributing to the development of the organization.
             </p>
           </div>
@@ -86,7 +87,7 @@ experience ..</p>
            const color = item.color;
           return (  
            
-            <div className="skill-btn col-md-1 col-sm-6" key={index} style={{backgroundColor:color,}}>
+            <div className="skill-btn col-md-1 col-sm-6" key={index} style={{backgroundColor:color,}} data-aos="fade-up" data-aos-delay="100">
                 <span className="btn-gradient">
                   <i className={item.icon}></i>
                 </span>

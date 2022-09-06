@@ -20,7 +20,7 @@ const Portfolio = () => {
         </div>
 
 
-        <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div className="row portfolio-container">
         {portfolio_data.map((item,index)=>{
           return (
             <Model key={index} img={item.imgSrc} name={item.name} category={item.category} url={item.url} tech={item.tech} desc={item.desc} />

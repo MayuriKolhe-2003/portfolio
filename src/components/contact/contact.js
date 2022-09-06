@@ -23,13 +23,13 @@ const Contact = () => {
 
 
           <section id="contact" className="contact">
-            <div className="container contact-form" data-aos="fade-up">
-            <div className='row'>
-                    <div className="section-title ">
+            <div className="container contact-form" >
+            <div className="section-title " data-aos="fade-up">
                     <h2>Contact Me</h2>
                     <p>Reach out to me at below places.</p>
                     </div>
-              <div className='col-md-7'>
+            <div className='row'>        
+              <div className='col-md-7' data-aos="fade-right">
                 <form  ref={form} onSubmit={sendEmail} id="contact">
                   <div className="my-5">
                     <div className=" shadow rounded p-5">
@@ -67,7 +67,7 @@ const Contact = () => {
                 </form>
           		</div>
              
-                  <div className="col-md-5 ms-auto d-flex align-items-stretch">
+                  <div className="col-md-5 ms-auto d-flex align-items-stretch"data-aos="fade-right" >
 								<div className="info-wrap  p-5">
 
                 <div className="section-title ">
