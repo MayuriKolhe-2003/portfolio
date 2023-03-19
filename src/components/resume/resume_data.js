@@ -15,9 +15,9 @@ export const education = [
 	},
 	{
 		id:3,
-		edu: "Bacholer's Of Degree || Computer Science",
+		edu: "Bacholer's Of Engineering || Computer Engineering",
 		year : '2022-2025',
-		name: '',
+		name: 'SCTRs Pune Institue of Computer Technology, Pune',
 		status: 'Currently Pursuing',
 	},
 
@@ -29,7 +29,7 @@ export const experience = [
 		id:1,
 		designation : 'Web Developer Intern',
 		company : 'Tagliente',
-		period : 'July,2022 - present',
+		period : 'July,2022 - October,2022',
 		description : [ 
 		'Designed UI of websites with html,css,js.',
 		'Developed backend of websites using PHP ',

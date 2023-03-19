@@ -10,7 +10,7 @@ export const portfolio_data= [
     },
     {
       id : 2,
-      imgSrc: 'assets/img/portfolio/portfolio-2.png',
+      imgSrc: 'assets/img/portfolio/mynews.jpg',
       name: 'News.com',
       category : 'website',
       url : '',
@@ -19,12 +19,12 @@ export const portfolio_data= [
     },
     {
       id : 3,
-      imgSrc: 'assets/img/portfolio/portfolio-.jpg',
-      name: 'Youthera',
+      imgSrc: 'assets/img/portfolio/crm.jpg',
+      name: 'Employee and Company Management',
       category : 'web app',
       url : '',
-      tech : 'Html,Css,Js,Php,Ajax',
-      desc : ' Youthera is an web application platform created for users to inteact at one place. It has features like posts,creating community, personal chats. The main feature of youthera is weekly group discussions.It gives all clients a platform to come together and share their thoughts and views.',
+      tech : 'Html,Css,Js,Php,PhpMyadmin',
+      desc : ' This is a customer and retailer relationship management system. Also has a admin sytem to manage all the retailers.',
     },
     {
       id : 4,
@@ -43,6 +43,15 @@ export const portfolio_data= [
       url : '',
       tech : 'React.js',
       desc : ' This is a simple react app showing bolgs. We can add a new blog or delete an existing blog. We can also view complete detail of the selected blog.',
+    },
+    {
+      id : 6,
+      imgSrc: 'assets/img/portfolio/mynote.png',
+      name: 'My-Notes',
+      category : 'website',
+      url : '',
+      tech : 'React.js,Mongo,Express,node',
+      desc : ' This is a simple node app  have where user can create Account. Login and add his notes. Edit and delete notes. Used react-router,context and mongodb as a database.',
     },
     
 ]

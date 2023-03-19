@@ -78,7 +78,7 @@ const Contact = () => {
 				        			<span className="fa fa-map-marker"></span>
 				        		</div>
 				        		<div className="text ps-3">
-					            <p><span>Address:</span> Saneguruji Colony, Faizpur , Dist-Jalgaon -India</p>
+					            <p><span>Address:</span> Trimuri Chowk, Dhanakwadi ,Pune-411043</p>
 					          </div>
 				          </div>
 				        	<div className="w-100 my-2 d-flex align-items-center">
