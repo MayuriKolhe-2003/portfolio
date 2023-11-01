@@ -25,9 +25,9 @@ const About = () => {
     <div className="section-title" data-aos="fade-up">
           <h2>About</h2>
           <p>An independent and self-motivated student on the quest of an
-oppourtinity for an entry-level position in the web
+oppourtinity for an entry-level position in the software
 development that can acquiant me with knowledge and
-experience ..</p>
+experience. </p>
         </div>
       <div className="container" >
 
@@ -41,9 +41,9 @@ experience ..</p>
 
           <div className="col-md-7 pt-4  mt-5 ms-auto">
           
-          <h3>Frontend &amp; Web Developer</h3>
+          <h3>Software Developer</h3>
             <p className="fst-italic my-3">
-              I am a 19 year old student of Computer science having interest in web development and machine learning. I am passionate to learn new things 
+            I'm a 20-year-old Computer Science student with a keen interest in software development and machine learning. I'm deeply passionate about continuously acquiring knowledge in emerging technologies
             </p>
             <div className="row content">
               <div className="col-md-6" data-aos="fade-right">
@@ -56,7 +56,7 @@ experience ..</p>
               </div>
               <div className="col-md-6" data-aos="fade-right">
                 <ul>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong> 20</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> Pursuing Bachelors</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Email: </strong> kolhem10@gmail.com</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
@@ -100,81 +100,9 @@ experience ..</p>
       </div>
     </section>
 
-{/*
-    <section id="testimonials" className="testimonials">
-      <div className="container" data-aos="fade-up">
 
-        <div className="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <Swiper
-      // install Swiper modules
-      modules={[ Pagination]}
-      speed={600}
-      loop={true}
-      slidesPerView={1}
-      pagination={{ clickable: true }}
-      autoplay ={{delay:5000,disableOnInteraction:false}}
-      
-    >
-      <SwiperSlide>
-      <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-      </SwiperSlide>
-      
-    </Swiper>
-
-        </div>
-      </div>
-    </section> 
-  */}
+    
+  
     </>
   )
 }

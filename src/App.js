@@ -19,6 +19,7 @@ import Bubbles from './components/bubbles/bubbles.js'
 import "./App.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Awards from "./components/about/Awards.js";
 AOS.init({
   duration: 1000,
   easing: "ease-in-out",
@@ -49,6 +50,7 @@ const App = () => {
         <About />
         <Resume />
         <Portfolio />
+        <Awards />
         <Contact />
         <Footer />
         

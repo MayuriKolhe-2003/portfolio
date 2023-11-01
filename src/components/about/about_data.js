@@ -95,4 +95,30 @@ export const skills_data = [
 		name:'Github',
 		color:'#a8327b',
 	},
+	{
+		id:14,
+		icon:'fa-brands fa-hive',
+		name:'Blockchain',
+		color:'#457ad6',
+	},
+	{
+		id:15,
+		icon:'fa-brands fa-node',
+		name:'Node',
+		color:'#997ad6',
+	},
+	{
+		id:15,
+		icon:'fa-brands fa-envira',
+		name:'Mongodb',
+		color:'#eb6363',
+	},
+	{
+		id:16,
+		icon:'fa-brands fa-ethereum',
+		name:'Solidity',
+		color:'#fb63a2',
+	},
+	
+	
 ]

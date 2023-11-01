@@ -18,7 +18,7 @@ export const education = [
 		edu: "Bacholer's Of Engineering || Computer Engineering",
 		year : '2022-2025',
 		name: 'SCTRs Pune Institue of Computer Technology, Pune',
-		status: 'Currently Pursuing',
+		status: 'Currently Pursuing - 9.0',
 	},
 
 
@@ -28,12 +28,20 @@ export const experience = [
 	{
 		id:1,
 		designation : 'Web Developer Intern',
-		company : 'Tagliente',
+		company : 'Tagliente India Pvt.Ltd',
 		period : 'July,2022 - October,2022',
 		description : [ 
-		'Designed UI of websites with html,css,js.',
-		'Developed backend of websites using PHP ',
-		'Developed full fledeged websited with php as a backend.',
+		'As a intern, gained frontend and backend experience, contributed to site development and maintenance.',
+		'Contributed to the design and development of administrative systems, CRM solutions, and client-specific projects under the guidance of experienced professionals.',
+	]
+	},
+	{
+		id:2,
+		designation : 'Data Engineer Intern',
+		company : 'Bajaj Finserv',
+		period : 'Ongoing',
+		description : [ 
+		'I am currently engaged in a Python project that involves capturing screenshots of different applications and using a comparison mechanism to detect variations or disparities between them.',
 	]
 	}
 ]
